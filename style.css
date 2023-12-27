@@ -1,0 +1,233 @@
+.my-image{
+    border-radius: 50%;
+    height: 350px;
+    width: 300px;
+    padding: 5px;
+}
+
+.about{
+    color: rgb(32, 57, 57);
+    text-align: center;
+    padding: 10px;
+}
+
+.first-page
+{
+    background: linear-gradient(300deg, #4d7c8a, #7F9C96, #8FAD88);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    display: flex;
+    padding: 80px;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.portfolio div{
+    background-color: darkslategray;
+    color: antiquewhite;
+    padding: 30px;
+    border-radius: 1rem;
+    margin: 20px;
+    text-align: left;
+    max-width: 300px;
+    min-width: 300px;
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+body{
+    margin: 0;
+}
+
+li{
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+ul{
+    padding: 0;
+}
+
+h3{
+    color: lightblue;
+    font-family: "Montserrat", sans-serif;
+}
+.pro{
+    text-decoration: underline;
+}
+
+h1{
+    font-family: "Sacramento", cursive;
+    font-size: 4rem;
+}
+
+.my-info h2{
+    color: #247878;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 40;
+}
+
+.intro{
+    font-size: 1.5rem;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.programmer{
+    font-size: 2.5rem;
+}
+
+.my-info{
+    margin-top: 100px;
+}
+
+h6{
+    margin-bottom: 5px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.web-design{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: auto;
+    font-weight: 40;
+}
+
+.projects{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.connection{
+    text-align: center;
+}
+
+.design{
+    color: #247878;
+}
+
+.love{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.web-dev{
+    color: #247878;
+    font-family: "Sacramento", cursive;
+}
+
+.learn{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.adventure{
+    margin: 0 auto;
+    display: block;
+    border-radius: 1rem;
+    width: 50%;
+    max-width: 500px;
+}
+
+.work-experience > p{
+    font-family: "Montserrat", sans-serif;
+}
+
+.connect{
+    background: linear-gradient(300deg, #4d7c8a, #7F9C96, #8FAD88);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    text-align: center;
+    height: auto;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer small p{
+    margin-bottom: 0;
+    margin-top:25px;
+    color: rgb(32, 57, 57);
+    text-align: center;
+}
+
+.link
+{
+    text-align: center;
+    color: rgb(32, 57, 57);
+    margin:20px;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.prev-projects{
+    background: linear-gradient(300deg, #4d7c8a, #7F9C96, #8FAD88);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    padding: 50px;
+    margin: 100px auto 100px auto;
+}
+
+.parent{
+    display: flex;
+    margin: 100px auto 0 auto;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    gap: 50px;
+
+}
+
+.mondrian{
+    max-height: 250px;
+    max-width: 250px;
+    border-radius: 1rem;
+}
+
+.bootstrap{
+    height: 125px;
+    width: 250px;
+    border-radius: 1rem;
+}
+
+.tindog{
+    height: 125px;
+    width: 250px;
+    border-radius: 1rem;
+}
